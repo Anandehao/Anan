@@ -1,0 +1,12 @@
+/* pages/video/video.wxss */
+.cx{
+  border: 1rpx solid gainsboro;
+  background: gainsboro;
+  width: 630rpx;
+  margin-left: 60rpx;
+  border-radius: 10px;
+}
+.cx input{
+  width: 560rpx;
+  margin-left:10rpx;
+}

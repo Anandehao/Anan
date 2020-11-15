@@ -1,0 +1,11 @@
+<!--pages/music_gedan/music_gedan.wxml-->
+<input disabled value='歌单推荐：'></input>
+
+<view class='gedan'>
+  <view wx:for="{{music_gedan}}" wx:key="" class="gg">
+    <navigator url='/pages/gedan_list/gedan_list?music={{item.specialid}}&&imgurl={{item.imgurl}}&&name={{item.specialname}}&&image={{item.user_avatar}}&&username={{item.username}}'>
+      <image src='{{item.imgurl}}'></image>
+      <textarea disabled value='{{item.specialname}}'></textarea>
+    </navigator>
+  </view>
+</view>

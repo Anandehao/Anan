@@ -1,0 +1,27 @@
+<!--pages/music_like/music_like.wxml-->
+<image class='beijing' src='/images/like_beijing.png'></image>
+<scroll-view style='height:1200rpx;' scroll-y>
+<view class='kuang'>
+  <view class='kk'>
+    <image src='/images/like.png'></image>
+  </view>
+  <view class='kkt'>
+    <input class='li' value='你的喜欢：' disabled></input>
+    <view class='rr'>
+      <image src='{{image}}'></image>
+      <input disabled value='{{name}}'></input>
+    </view>
+  </view>
+</view>
+
+<view class='like' wx:key="" wx:for="{{list}}">
+<image class='im' src='{{item.image}}'></image>
+  <view bindtap='play' data-hash='{{item.hash}}' class='tex'>
+    <input class='ip1' disabled value="{{item.music}}"></input>
+    <input class='ip2' disabled value="{{item.name}}"></input>
+  </view>
+  <view class='ima'>
+  <image bindtap='sc' data-hash='{{item._id}}' src='/images/like.png'></image>
+  </view>
+</view>
+</scroll-view>

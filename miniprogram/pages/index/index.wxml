@@ -1,0 +1,5 @@
+<view class='tt'>
+  <image src='/images/xn.gif'></image>
+  <text>欢迎来到阿楠娱乐</text>
+  <button bindtap='tz' type='primary'>进入</button>
+</view>

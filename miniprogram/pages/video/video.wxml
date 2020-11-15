@@ -1,0 +1,5 @@
+<!--pages/video/video.wxml-->
+
+<view class='cx'>
+  <input></input>
+</view>

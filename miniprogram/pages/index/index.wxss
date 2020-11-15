@@ -1,0 +1,17 @@
+.tt image{
+  height: 1200rpx;
+  width: 750rpx;
+}
+.tt text{
+  position: absolute;
+  left: 200rpx;
+  top: 80rpx;
+  font-size: 22px;
+  color: orange
+}
+.tt button{
+  position: absolute;
+  top: 1100rpx;
+  width: 550rpx;
+  left: 100rpx;
+}
