@@ -1,0 +1,85 @@
+/* pages/XFjilu/XFjilu.wxss */
+.mian{
+  height: 1000rpx;
+  width: 750rpx;
+}
+.px {
+  border: 1rpx solid white;
+  width: 750rpx;
+  height: 80rpx;
+}
+
+.px1 {
+  border: 1rpx solid paleturquoise;
+  height: 50rpx;
+  width: 190rpx;
+  background: paleturquoise;
+  float: left;
+  margin-left: 175rpx;
+}
+
+.px3 {
+  border: 1rpx solid paleturquoise;
+  height: 50rpx;
+  width: 190rpx;
+  float: left;
+  margin-left: 175rpx;
+}
+
+.px2 {
+  border: 1rpx solid paleturquoise;
+  height: 50rpx;
+  width: 190rpx;
+  float: left;
+}
+
+.px4 {
+  border: 1rpx solid paleturquoise;
+  height: 50rpx;
+  width: 190rpx;
+  background: paleturquoise;
+  float: left;
+}
+
+.qq1 {
+  float: right;
+  border: 1rpx solid white;
+  height: 90rpx;
+  width: 300rpx;
+}
+
+.qq2 {
+  width: 380rpx;
+  height: 90rpx;
+  float: left;
+}
+
+.dd {
+  border-bottom: 1rpx solid paleturquoise;
+  height: 100rpx;
+  width: 710rpx;
+  margin-left: 20rpx;
+}
+
+.ddan {
+  color: royalblue;
+}
+
+.time {
+  font-size: 10px;
+}
+
+.yee {
+  color: royalblue;
+  border: 1rpx solid white;
+  height: 40rpx;
+  width: 200rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+
+.yss {
+  font-size: 11px;
+  color: yellowgreen;
+  margin-left: 220rpx;
+}

@@ -1,0 +1,95 @@
+/* pages/zhanghu/zhanghu.wxss */
+.a1{
+  height: 100px;
+  width: 750rpx;
+  position: absolute;
+  top: 0rpx;
+}
+.vv1{
+  height: 60px;
+  width: 60px;
+  position: absolute ;
+  z-index: 100;
+  left: 50rpx;
+  top: 20px;
+  border-radius: 80rpx;
+}
+
+.v1{
+  margin-top: 100px;
+}
+.a3{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 105px;
+  left: 10px;
+}
+.b1{
+  position: absolute;
+  top: 110px;
+  left: 550rpx;
+}
+.a4{
+   height: 30px;
+   width: 30px;
+   position: absolute;
+   top: 155px;
+   left: 10px;
+}
+.a5{
+   height: 30px;
+   width: 30px;
+   position: absolute;
+   top: 200px;
+   left: 10px;
+}
+.a6{
+  height: 30px;
+   width: 30px;
+   position: absolute;
+   top: 245px;
+   left: 10px;
+} 
+.v3{
+  height: 10px;
+  width: 10px;
+}
+.a7{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+   top: 155px;
+   left: 650rpx;
+}
+.a8{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+   top: 200px;
+   left: 650rpx;
+}
+.a9{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+   top: 245px;
+   left: 650rpx;
+}
+.vv2{ 
+   position: absolute;
+   top: 20px;
+   left: 250rpx;
+   z-index: 100;
+   color: white;
+   font-size: 20px;
+
+   }
+.i2{
+   position: absolute;
+   top: 50px;
+   left: 250rpx;
+   z-index: 100;
+   color: white;
+}
+

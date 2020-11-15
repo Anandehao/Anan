@@ -1,0 +1,61 @@
+<!--pages/shopcar/shopcar.wxml-->
+<view class='mian'>
+  <view class='diz'>
+    <view class='dz'>
+      <text>收货地址：</text>
+    </view>
+    <picker class='xxz' mode="selector" bindchange='addr' range='{{address_list}}' range-key="{{'Detail'}}"> 选择 </picker>
+    <view class='cc1' style='width=750rpx;'>
+      <view class='v2'>
+        <text>{{add_name}}</text>
+      </view>
+      <view class='v1'>
+        <text>{{add_phone}}</text>
+      </view>
+    </view>
+    <view class='ko'>
+      <text>{{detail}}</text>
+    </view>
+    <view class='xian1'></view>
+  </view>
+
+    <scroll-view class='hk' scroll-y>
+      <checkbox-group bindchange="radio">
+        <view wx:for="{{car_list}}" wx:key="">
+          <view class='buy'>
+            <view>
+              <text>物品详情：</text>
+              <checkbox color='orange' checked="{{checked}}" class='xz' value="{{index}}">
+              </checkbox>
+            </view>
+            <view class='ima'>
+              <image src='{{item.Image}}'></image>
+            </view>
+            <view class='frame1'>
+              <text>{{item.Name}}</text>
+              <view class='ip'>
+                <input  value='{{item.price*item.number}}'></input>
+              </view>
+            </view>
+            <view>
+              <image bindtap='jia' class='jia' data-index='{{index}}' src='/images/jia.png'></image>
+              <view class='ges'>
+                <input  value='{{item.number}}'></input>
+              </view>
+              <image bindtap='jian' class='jian' data-index='{{index}}' src='/images/jian.png'></image>
+              <button class='sc' bindtap='sc' data-carid='{{item.carid}}' size='mini'>删除</button>
+            </view>
+          </view>
+        </view>
+      </checkbox-group>
+    </scroll-view>
+    <view class='js'>
+      <radio class='qx' bindtap='qxuan' checked='{{all}}' color='orange'>全选</radio>
+      <button class='sc1' bindtap='qingk' size='mini'>清空</button>
+      <view class='hj'>
+        <text>合计：</text>
+      </view>
+      <input class='hjje' value='{{price}}'></input>
+      <button bindtap='jshuan' size='mini' class='jjs'>结算</button>
+    </view>
+</view>

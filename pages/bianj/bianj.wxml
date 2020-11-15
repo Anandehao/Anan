@@ -1,0 +1,28 @@
+<!--pages/bianj/bianj.wxml-->
+<form bindsubmit='xinx'>
+  <view class='xian1'>
+    <view class='kkk1'>收货人 :</view>
+    <input value='{{name}}' name='name' class='ip1'></input>
+  </view>
+  <view class='xian2'>
+    <view class='kkk2'>手机 :</view>
+    <input value='{{phone}}' name='phone' class='ip1'></input>
+  </view>
+  <view class='on'>
+  <text>所在地区</text>
+  </view>
+  <view class="xian3">
+    <input value='{{sheng}}' name='sheng' class='ip1'></input>
+  </view>
+  <view class="xian3">
+    <input value='{{shi}}' name='shi' class='ip1'></input>
+  </view>
+  <view class="xian3">
+    <input value='{{qu}}' name='qu' class='ip1'></input>
+  </view>
+  <view class='xian2'>
+    <view class='kkk3'> 详细地址 :</view>
+    <input class='ip1' value='{{xxdz}}' name='xiangq'></input>
+  </view>
+  <button form-type='submit' class='bb1' type='primary'>确认地址</button>
+</form>

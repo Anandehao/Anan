@@ -1,0 +1,47 @@
+<!--pages/SHdizhi/SHdizhi.wxml-->
+<radio-group bindchange="moren">
+
+    <view>
+      <view wx:for="{{address_list}}" wx:key="">
+        <view class='cc1' style='width=750rpx; '>
+          <view class='v2'>
+            <text>{{item.Name}}</text>
+          </view>
+          <view class='v1'>
+            <text>{{item.Phone}}</text>
+          </view>
+        </view>
+        <view class='ko'>
+          <text>{{item.Detail}}</text>
+        </view>
+        <view class='xian1'></view>
+        <view class='kk1'>
+          <view wx:if='{{item.DefaultFlag==1}}'>
+            <radio checked value='{{item.AddrId}}' class='q1'>设置为默认地址</radio>
+          </view>
+          <view wx:else>
+            <radio value='{{item.AddrId}}' class='q1'>设置为默认地址</radio>
+          </view>
+          <navigator url='/pages/bianj/bianj?AddrId={{item.AddrId}}' open-type='redirect'>
+            <view>
+              <image class='t1' src='/images/img_edit.png'></image>
+            </view>
+            <view class='tx'>
+              <text>编辑</text>
+            </view>
+          </navigator>
+          <view bindtap='shanc' data-rid='{{item.AddrId}}'>
+            <view>
+              <image class='t2' src='/images/img_delete.png'></image>
+            </view>
+            <view class='tx'>
+              <text>删除</text>
+            </view>
+          </view>
+        </view>
+        <view class='xian2'></view>
+      </view>
+    </view>
+
+</radio-group>
+<button bindtap='TJdizhi' class='bb1' type='primary'>添加新地址</button>

@@ -1,0 +1,11 @@
+<form bindsubmit='wanc'>
+<view class='k'>
+  <view class='v1'>
+    <text>金额</text>
+  </view>
+  <view class='v2'>
+    <input type='number' name='se' confirm-type='done' placeholder='每日最高充值50000元'></input>
+  </view>
+</view>
+<button form-type='submit' type='primary' class='cc'>完成</button>
+</form>

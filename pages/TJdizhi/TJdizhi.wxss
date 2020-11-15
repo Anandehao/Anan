@@ -1,0 +1,59 @@
+.xian1 {
+  border-bottom: 1rpx solid gray;
+  height: 60rpx;
+  width: 700rpx;
+  margin-left: 25rpx;
+}
+
+.xian2 {
+  border-bottom: 1rpx solid gray;
+  height: 60rpx;
+  margin-top: 30rpx;
+  width: 700rpx;
+  margin-left: 25rpx;
+}
+.tttt{
+  margin-left: 25rpx;
+}
+
+.kkk1 {
+  border: 1rpx solid white;
+  width: 140rpx;
+  height: 50rpx;
+  float: left;
+}
+
+.kkk2 {
+  border: 1rpx solid white;
+  width: 100rpx;
+  height: 50rpx;
+  float: left;
+}
+
+.kkk3 {
+  border: 1rpx solid white;
+  width: 200rpx;
+  height: 50rpx;
+  float: left;
+}
+
+.ip1 {
+  float: left;
+}
+
+.bb1 {
+  width: 70%;
+  margin-top: 80rpx;
+}
+
+.he {
+  margin-top: 15rpx;
+}
+
+.xian3 {
+  border-bottom: 1rpx solid gray;
+  height: 60rpx;
+  margin-top: 30rpx;
+  width: 700rpx;
+  margin-left: 25rpx;
+}

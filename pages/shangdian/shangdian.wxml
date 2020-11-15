@@ -1,0 +1,86 @@
+<!--pages/shangdian/shangdian.wxml-->
+<view class='qq1' style="border:1px">
+  <swiper circular indicator-dots autoplay>
+    <swiper-item>
+      <image class='h' src='/images/h1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='h' src='/images/h2.gif'></image>
+    </swiper-item>
+  </swiper>
+  <view>
+    <view class='sa1'>
+      <view class='vv1'>
+        <view>
+          <image src='/images/balance.png'></image>
+        </view>
+        <view class='tj'>
+          <text>账户余额</text>
+        </view>
+      </view>
+      <view class='vv1'>
+        <view>
+          <image src='/images/recharge.png'></image>
+        </view>
+        <view class='tj'>
+          <text>充值记录</text>
+        </view>
+      </view>
+      <view class='vv1'>
+        <view>
+          <image src='/images/consumption.png'></image>
+        </view>
+        <view class='tj'>
+          <text>消费记录</text>
+        </view>
+      </view>
+      <view class='vv1'>
+        <view>
+          <image src='/images/address.png'></image>
+        </view>
+        <view class='tj'>
+          <text>个人资料</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<scroll-view style='border:1px solid grey;' class='hk' scroll-y>
+  <view wx:for="{{goods_list}}" wx:key="">
+    <navigator url='/pages/xiangqing/xiangqing?goodsid={{item.GoodsId}}'>
+      <view class='kuang1' style="float:lift; border:0.5px solid grey; width:750rpx; height:90px;">
+        <view>
+          <image class='va1' src='{{item.Image}}'></image>
+        </view>
+        <view class='fd'>
+          <view class='vt1'>
+            <text>{{item.Name}}</text>
+          </view>
+          <view class='vt2'>
+            <text>￥：{{item.price}}</text>
+          </view>
+          <view class='vt3'>
+            <text>{{item.Detail}}</text>
+          </view>
+        </view>
+        <view class='gm'>
+          <button type='primary' size='mini'>购买</button>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</scroll-view>
+
+<view>
+  <navigator url='/pages/shopcar/shopcar'>
+    <image class='sa7' src="/images/shopping.png"></image>
+  </navigator>
+  <view>
+    <text class='te3'>共2件商品:￥6</text>
+  </view>
+  <view vb>
+    <button class='bt5' size='mini'>清空</button>
+    <button class='bt6' type='warn' size='mini'>结算</button>
+  </view>
+</view>

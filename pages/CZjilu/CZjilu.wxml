@@ -1,0 +1,13 @@
+<!--pages/congz/congz.wxml-->
+<view wx:for="{{time_money}}" wx:key="">
+  <view class='beij'>
+    <view>
+      <view class='vt1'>
+        <text>{{item.RechargeTime}}</text>
+      </view>
+      <view class='vt3'>
+        <text>+￥{{item.Money}}</text>
+      </view>
+    </view>
+  </view>
+</view>

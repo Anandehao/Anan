@@ -1,0 +1,32 @@
+<!--pages/zhanghu/zhanghu.wxml-->
+<view>
+  <image class='a1' src='/images/profile_bg.png'></image>
+</view>
+<view class='v1'>
+  <button type='default'> 余额:￥{{money}}</button>
+  <button class='b1' bindtap='czhi' size='mini'>充值</button>
+  <image class='a3' src='/images/balance.png'></image>
+</view>
+<view>
+  <button bindtap='xiaofei'>消费记录</button>
+  <button bindtap='congz' >充值记录</button>
+  <button bindtap='SHd'>收货地址</button>
+</view>
+<view>
+  <image class='a4' src='/images/consumption.png'></image>
+  <image class='a5' src='/images/recharge.png'></image>
+  <image class='a6' src='/images/address.png'></image>
+  <image class='a7' src='/images/right.png'></image>
+  <image class='a8' src='/images/right.png'></image>
+  <image class='a9' src='/images/right.png'></image>
+</view>
+
+<input class='i2' disabled value="会员卡号：88888888"></input>
+
+<view>
+  <image class='vv1' src='{{user.headimage}}'></image>
+  <view class='vv2'>
+    <text>{{user.username}}</text>
+  </view>
+
+</view>

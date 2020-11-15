@@ -1,0 +1,53 @@
+<!--pages/buy/buy.wxml-->
+<form bindsubmit='buy'>
+<view>
+  <text>收货地址：</text>
+  <picker class='xxz' mode="selector" bindchange='addr' range='{{address_list}}' range-key="{{'Detail'}}"> 选择 </picker>
+  <view class='cc1' style='width=750rpx;'>
+    <view class='v2'>
+      <text>{{add_name}}</text>
+    </view>
+    <view class='v1'>
+      <text>{{add_phone}}</text>
+    </view>
+  </view>
+  <view class='ko'>
+    <text>{{detail}}</text>
+  </view>
+  <view class='xian1'></view>
+</view>
+
+<view class='frame2'>
+  <view>
+    <text>商品信息：</text>
+  </view>
+  <view>
+    <image class='frame' src='{{image}}'></image>
+  </view>
+  <view class='frame1'>
+    <text>{{name}}</text>
+    <view class='ip'>
+      <input name='price' value='{{price*geshu}}'></input>
+    </view>
+  </view>
+  <view>
+    <image bindtap='jia' class='jia' src='/images/jia.png'></image>
+    <view class='ges'>
+      <input name='geshu' value='{{geshu}}'></input>
+    </view>
+    <image bindtap='jian' class='jian' src='/images/jian.png'></image>
+  </view>
+</view>
+
+<view class='xian1'></view>
+
+<view class='frame3'>
+  <text>备注：</text>
+  <view class='srk'>
+    <textarea name='holder' placeholder='请输入备注'></textarea>
+  </view>
+</view>
+
+<button form-type='submit' type='primary'>结算</button>
+
+</form>

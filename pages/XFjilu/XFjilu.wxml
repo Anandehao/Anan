@@ -1,0 +1,67 @@
+<!--pages/XFjilu/XFjilu.wxml-->
+<view wx:if="{{tt1}}">
+  <view class='mian'>
+    <view class='px'>
+      <view class='px1'>
+        <text>按时间排序</text>
+      </view>
+      <view bindtap='jiage' class='px2'>
+        <text>按价格排序</text>
+      </view>
+    </view>
+    <view wx:for="{{jilu_time}}" wx:key="" class='dd'>
+      <view class='qq2'>
+        <view>
+          <text class='ddan'>{{item.OrderNum}}</text>
+        </view>
+        <view>
+          <text class='time'>{{item.CreateTime}}</text>
+        </view>
+      </view>
+      <view class='qq1'>
+        <view class='yee'>
+          <text>- ￥:</text>
+          <text>{{item.Money}}</text>
+        </view>
+        <view class='yss'>
+          <text>{{item.Status}}</text>
+        </view>
+      </view>
+    </view>
+    <view style="clear:both"></view>
+  </view>
+</view>
+
+
+<view wx:else="{{tt2}}">
+  <view class='mian'>
+    <view class='px'>
+      <view bindtap='shijian' class='px3'>
+        <text>按时间排序</text>
+      </view>
+      <view class='px4'>
+        <text>按价格排序</text>
+      </view>
+    </view>
+    <view wx:for="{{jilu_price}}" wx:key="" class='dd'>
+      <view class='qq2'>
+        <view>
+          <text class='ddan'>{{item.OrderNum}}</text>
+        </view>
+        <view>
+          <text class='time'>{{item.CreateTime}}</text>
+        </view>
+      </view>
+      <view class='qq1'>
+        <view class='yee'>
+          <text>- ￥:</text>
+          <text>{{item.Money}}</text>
+        </view>
+        <view class='yss'>
+          <text>{{item.Status}}</text>
+        </view>
+      </view>
+    </view>
+    <view style="clear:both"></view>
+  </view>
+</view>

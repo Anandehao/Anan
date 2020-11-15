@@ -1,0 +1,53 @@
+/* pages/dingdan/dingdan.wxss */
+.mian{
+  width: 750rpx;
+  height: 1000rpx;
+}
+.ku{
+  height: 80rpx;
+  width: 500rpx;
+  margin-left: 150rpx;
+}
+.ku1{
+  border: 1rpx solid paleturquoise;
+  height: 50rpx;
+  width:130rpx;
+  background: paleturquoise;
+  float: left;
+  
+}
+.ku2{
+  border: 1rpx solid paleturquoise;
+  height: 50rpx;
+  width:130rpx;
+  float: left;
+}
+
+
+.ku text{
+  margin-left: 10rpx;
+}
+.dd{
+  border-bottom: 1rpx solid paleturquoise;
+  height: 100rpx;
+  width: 710rpx;
+  margin-left:20rpx; 
+}
+.ddan{
+  color: royalblue;
+}
+.time{
+  font-size: 10px;
+}
+.qq1{
+  float: right;
+  margin-top: 20rpx;
+}
+.qq2{
+  width: 500rpx;
+  height:90rpx;
+  float: left;
+}
+.qq1 text{
+  color: royalblue;
+}

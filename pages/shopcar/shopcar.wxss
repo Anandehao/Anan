@@ -1,0 +1,190 @@
+/* pages/shopcar/shopcar.wxss */
+
+.mian {
+  background: gainsboro;
+  height: 1200rpx;
+  width: 750rpx;
+  padding-top: 10rpx;
+}
+
+.diz {
+  width: 710rpx;
+  height: 180rpx;
+  background: skyblue;
+  margin-left: 20rpx;
+  border-radius: 20px;
+}
+
+.dz {
+  margin-left: 30rpx;
+  float: left;
+}
+
+.v1 {
+  float: right;
+  margin-right: 30rpx;
+}
+
+.xxz {
+  float: right;
+  margin-right: 40rpx;
+}
+
+.v2 {
+  float: left;
+  margin-left: 25rpx;
+}
+
+.ko {
+  border: 1rpx skyblue solid;
+  margin-left: 45rpx;
+  margin-top: 15rpx;
+  width: 640rpx;
+  height: 60rpx;
+  border-radius: 30px;
+}
+
+.cc1 {
+  border: 1rpx solid skyblue;
+  height: 60rpx;
+  width: 700rpx;
+  float: left;
+}
+
+.xian1 {
+  margin-top: 120rpx;
+  border: 1rpx solid gold;
+}
+
+.buy {
+  border: 1rpx solid palegreen;
+  background: palegreen;
+  height: 250rpx;
+  width: 730rpx;
+  margin-left: 10rpx;
+  border-radius: 20rpx;
+  margin-top: 15rpx;
+}
+
+.xz {
+  color: palegreen;
+  margin-left: 480rpx;
+}
+
+.ima {
+  border: 1rpx solid palegreen;
+  height: 160rpx;
+  width: 160rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  float: left;
+}
+
+.ima image {
+  height: 160rpx;
+  width: 160rpx;
+}
+
+.frame1 {
+  border: 1rpx solid palegreen;
+  float: left;
+  height: 120rpx;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}
+
+.gg {
+  border: 1rpx solid palegreen;
+  height: 80rpx;
+  width: 200rpx;
+  float: right;
+  margin-top: 100rpx;
+  margin-right: 20rpx;
+}
+
+.ip {
+  width: 120rpx;
+  margin-top: 20rpx;
+  color: orange;
+}
+
+.sc {
+  margin-left: 170rpx;
+  margin-top: 20rpx;
+  color: orange;
+}
+
+.hk {
+  height: 880rpx;
+  width: 730rpx;
+  margin-top: 10rpx;
+  border: 1px solid gainsboro;
+}
+
+.js {
+  border: 1rpx solid white;
+  background: white;
+  height: 100rpx;
+  width: 750rpx;
+  border-radius: 20px;
+}
+
+.qx {
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  color: gray;
+  float: left;
+}
+
+.hj {
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 60rpx;
+}
+
+.hjje {
+  color: orange;
+  width: 80rpx;
+  float: left;
+  margin-top: 20rpx;
+}
+
+.jjs {
+  background: orange;
+  margin-top: 20rpx;
+  float: left;
+  margin-left: 40rpx;
+}
+
+.sc1 {
+  border: 1rpx orange solid;
+  float: left;
+  color: orange;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  background: white;
+}
+
+.jia {
+  height: 40rpx;
+  width: 40rpx;
+  margin-top: 60rpx;
+  float: right;
+  margin-right: 60rpx;
+}
+
+.jian {
+  height: 40rpx;
+  width: 40rpx;
+  margin-right: 5rpx;
+  float: right;
+  margin-top: 60rpx;
+}
+
+.ges {
+  border: 1rpx solid white;
+  margin-top: 50rpx;
+  margin-right: 5rpx;
+  float: right;
+  width: 50rpx;
+}

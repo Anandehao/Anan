@@ -1,0 +1,90 @@
+/* pages/buy/buy.wxss */
+.v1{
+   float: right;
+   margin-right: 25rpx;
+}
+.xxz{
+   float: right;
+   margin-right: 20rpx;
+}
+.v2{
+  float: left;
+  margin-left: 25rpx;
+}
+.ko{
+  margin-left: 25rpx;
+}
+.cc1{
+  border: 1rpx solid white;
+  height: 60rpx;
+  width: 750rpx;
+  float: left;
+}
+.xian1{
+  margin-top: 10rpx;
+  border: 1rpx solid gainsboro;
+}
+.frame{
+  border: 1rpx solid white;
+  height: 150rpx;
+  width: 150rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  float: left;
+}
+.frame1{
+  border: 1rpx solid white;
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+  float: left
+}
+.frame1 view{
+  margin-top: 35rpx;
+  color: orange;
+}
+.ges{
+  border: 1rpx solid white;
+  margin-top: 100rpx;
+  margin-right: 5rpx;
+  float: right;
+  width: 50rpx;
+}
+.frame2{
+  border: 1rpx solid white;
+  height: 230rpx;
+  width: 750rpx;
+}
+.frame3{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  border-bottom: 15rpx solid gainsboro;
+  height: 300rpx;
+  width: 710rpx;
+}
+button{
+  width: 60%;
+  margin-top: 250rpx;
+}
+.srk{
+  border: solid 1rpx gainsboro;
+  height: 250rpx;
+  width: 710;
+}
+.jia{
+  height: 40rpx;
+  width: 40rpx;
+  margin-top:110rpx;
+  float: right;
+  margin-right: 10rpx;
+}
+.ip{
+  width: 80rpx;
+}
+.jian{
+  height: 40rpx;
+  width: 40rpx;
+  margin-right: 5rpx;
+  float:right;
+  margin-top: 110rpx;
+
+}

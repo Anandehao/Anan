@@ -1,0 +1,4 @@
+<view>
+  <image class='aa' src="/images/adv.png"></image>
+  <button open-type="getUserInfo" bindgetuserinfo="getuserinfo" class='aaa' type='warn'>激活</button>
+</view>

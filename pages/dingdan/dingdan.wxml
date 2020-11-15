@@ -1,0 +1,93 @@
+<!-- pages/dingdan/dingdan.wxml-->
+<view wx:if="{{tt1}}">
+  <view class='mian'>
+    <view class='ku'>
+      <view class='ku1'>
+        <text>未发货</text>
+      </view>
+      <view class='ku2'>
+        <text bindtap='yfh'>已发货</text>
+      </view>
+      <view class='ku2'>
+        <text bindtap='ywc'>已完成</text>
+      </view>
+    </view>
+    <view wx:for="{{dingdan_list}}" wx:key="" class='dd'>
+      <view class='qq2'>
+        <view>
+          <text>订单号:</text>
+          <text class='ddan'>{{item.OrderNum}}</text>
+        </view>
+        <view>
+          <text class='time'>{{item.CreateTime}}</text>
+        </view>
+      </view>
+      <view class='qq1'>
+        <text>￥:</text>
+        <text class='yee'>{{item.Money}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view wx:elif="{{tt2}}">
+  <view class='mian'>
+    <view class='ku'>
+      <view class='ku2'>
+        <text bindtap='wfh'>未发货</text>
+      </view>
+      <view class='ku1'>
+        <text>已发货</text>
+      </view>
+      <view class='ku2'>
+        <text bindtap='ywc'>已完成</text>
+      </view>
+    </view>
+    <view wx:for="{{dd_yfh}}" wx:key="" class='dd'>
+      <view class='qq2'>
+        <view>
+          <text>订单号:</text>
+          <text class='ddan'>{{item.OrderNum}}</text>
+        </view>
+        <view>
+          <text class='time'>{{item.CreateTime}}</text>
+        </view>
+      </view>
+      <view class='qq1'>
+        <text>￥:</text>
+        <text class='yee'>{{item.Money}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view wx:if="{{tt3}}">
+  <view class='mian'>
+    <view class='ku'>
+      <view class='ku2'>
+        <text bindtap='wfh'>未发货</text>
+      </view>
+      <view class='ku2'>
+        <text bindtap='yfh'>已发货</text>
+      </view>
+      <view class='ku1'>
+        <text>已完成</text>
+      </view>
+    </view>
+    <view wx:for="{{dd_ywc}}" wx:key="" class='dd'>
+      <view class='qq2'>
+        <view>
+          <text>订单号:</text>
+          <text class='ddan'>{{item.OrderNum}}</text>
+        </view>
+        <view>
+          <text class='time'>{{item.CreateTime}}</text>
+        </view>
+      </view>
+      <view class='qq1'>
+        <text>￥:</text>
+        <text class='yee'>{{item.Money}}</text>
+      </view>
+    </view>
+  </view>
+</view>

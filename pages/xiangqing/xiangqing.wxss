@@ -1,0 +1,66 @@
+.bb1 {
+  margin-left: 420rpx;
+}
+
+.ys {
+  background: paleturquoise;
+}
+
+.bb {
+  margin-left: 20rpx;
+}
+
+.xian1 {
+  margin: 10px auto;
+  width: 750rpx;
+  height: 4rpx;
+  background-color: grey;
+}
+
+.xian2 {
+  margin: 10px auto;
+  width: 750rpx;
+  height: 2rpx;
+  background-color: grey;
+  margin-top: 10rpx;
+}
+
+.bb2 {
+  font-size: 60rpx;
+  margin-left: 50rpx;
+}
+
+.tt1 {
+  height: 450rpx;
+  width: 700rpx;
+  margin-left: 25rpx;
+  margin-top: 25rpx;
+}
+
+.bb3 {
+  font-size: 30rpx;
+  margin-left: 50rpx;
+}
+
+.kuang {
+  background: gainsboro;
+  width: 750rpx;
+  height: 100rpx;
+}
+
+.kk {
+  height: 52rpx;
+}
+
+
+.kuang .b_2{
+  margin-left: 300rpx;
+  float: left;
+  margin-top: 20rpx;
+}
+.tz{
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+
+}

@@ -1,0 +1,136 @@
+/* pages/shangdian/shangdian.wxss */
+
+swiper {
+  height: 400rpx;
+  width: 750rpx;
+}
+
+.h {
+  width: 100%;
+  height: 500rpx;
+}
+
+.sa1{
+  margin-top: 30rpx;
+  float: left;
+  margin-left: 10rpx;
+}
+.vv1{
+  float: left;
+  margin-left: 5rpx;
+}
+.tj{
+  margin-left: 65rpx;
+  font-size: 25rpx;
+}
+.sa1 image {
+  height: 80rpx;
+  width: 80rpx;
+  margin-left: 75rpx;
+}
+
+
+.bt1 {
+  position: absolute;
+  top: 255px;
+  left: 20rpx;
+  
+}
+
+.bt2 {
+  position: absolute;
+  top: 255px;
+  left: 200rpx;
+}
+
+.bt3 {
+  position: absolute;
+  top: 255px;
+  left: 380rpx;
+}
+
+.bt4 {
+  position: absolute;
+  top: 255px;
+  left: 560rpx;
+}
+
+.te2 {
+  position: absolute;
+  top: 450px;
+  left: 200rpx;
+}
+
+.sa7 {
+  height: 70rpx;
+  width: 70rpx;
+  margin-top: 20rpx;
+  float: left;
+
+}
+
+.te3 {
+  margin-top: 30rpx;
+ margin-left: 30rpx;
+ float: left;
+ font-size: 50rpx;
+}
+
+.bt5 {
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+  color: green;
+}
+
+.bt6 {
+  margin-top: 30rpx;
+   margin-left: 10rpx;
+} 
+
+.va1 {
+  height: 80px;
+  width: 140rpx;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+}
+
+.gm {
+  float: left;
+  margin-top: 80rpx;
+  margin-left: 80rpx;
+}
+
+.fd {
+  float: left;
+}
+
+.vt1 {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.vt2 {
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+
+.vt3 {
+  margin-top: 10rpx;
+  margin-left: 80rpx;
+  font-size: 30rpx;
+}
+
+.kuang1 {
+  background: yellow;
+}
+
+.hk {
+  height: 420rpx;
+}
+.qq1{
+  height: 580rpx;
+}
+.vb{
+  float: left;
+}

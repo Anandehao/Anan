@@ -1,0 +1,9 @@
+.aa {
+  height: 1210rpx;
+  width: 750rpx;
+}
+
+.aaa {
+  width: 70%;
+  margin-top: -550rpx;
+}

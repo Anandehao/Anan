@@ -1,0 +1,20 @@
+/* pages/czhi/czhi.wxss */
+.k{
+  border-bottom: 1rpx solid gainsboro;
+  border-top: 1rpx solid gainsboro;
+  height: 80rpx;
+}
+.k .v1{
+  float: left;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+}
+.k .v2{
+  float: left;
+  margin-left: 80rpx;
+  margin-top: 10rpx;
+}
+.cc{
+  width: 90%;
+  margin-top: 50rpx;
+}

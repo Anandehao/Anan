@@ -1,0 +1,58 @@
+/* pages/SHdizhi/SHdizhi.wxss */
+.v1{
+   float: right;
+   margin-right: 25rpx;
+}
+
+.v2{
+  float: left;
+  margin-left: 25rpx;
+}
+.ko{
+  margin-left: 25rpx;
+}
+.cc1{
+  border: 1rpx solid white;
+  height: 60rpx;
+  width: 750rpx;
+  float: left;
+}
+.xian1{
+  margin-top: 10rpx;
+  border: 1rpx solid gainsboro;
+}
+.t1{
+  height: 40rpx;
+  width: 40rpx;
+  float: left;
+  margin-left: 120rpx;
+  margin-top: 5rpx;
+}
+.t2{
+  height: 40rpx;
+  width: 40rpx;
+  float: left;
+   margin-left: 20rpx;
+  margin-top: 5rpx;
+}
+.q1{
+  float: left;
+  margin-left: 25rpx;
+}
+.tx{
+  float: left;
+}
+.xian2{
+  border: 1rpx solid gainsboro ;
+  height: 5rpx;
+  background: gainsboro;
+}
+.kk1{
+  border: 1rpx solid white ;
+  height: 60rpx;
+  margin-top: 5rpx;
+}
+.bb1{
+  width: 70%;
+  margin-top: 50rpx;
+}

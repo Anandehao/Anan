@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shangdian/shangdian",
+    "pages/shopcar/shopcar",
+    "pages/XFjilu/XFjilu",
+    "pages/dingdan/dingdan",
+    "pages/buy/buy",
+    "pages/xiangqing/xiangqing",
+    "pages/CZjilu/CZjilu",
+    "pages/chongzhi/chongzhi",
+    "pages/TJdizhi/TJdizhi",
+    "pages/bianj/bianj",
+    "pages/SHdizhi/SHdizhi",
+    "pages/zhanghu/zhanghu",
+    "pages/yuyue/yuyue"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "斗学商城",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#FF0000",
+    "list": [
+      {
+        "pagePath": "pages/shangdian/shangdian",
+        "text": "商店",
+        "iconPath": "images/store_normal.png",
+        "selectedIconPath": "images/store_select.png"
+      },
+      {
+        "pagePath": "pages/yuyue/yuyue",
+        "text": "预约",
+        "iconPath": "images/book_normal.png",
+        "selectedIconPath": "images/book_select.png"
+      },
+      {
+        "pagePath": "pages/dingdan/dingdan",
+        "text": "订单",
+        "iconPath": "images/order_normal.png",
+        "selectedIconPath": "images/order_select.png"
+      },
+      {
+        "pagePath": "pages/zhanghu/zhanghu",
+        "text": "账户",
+        "iconPath": "images/person_normal.png",
+        "selectedIconPath": "images/person_select.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+<!--pages/xiangqing/xiangqing.wxml-->
+<view>
+  <text class='bb'>商品详情</text>
+  <text class='bb1'>添加商品</text>
+</view>
+<view class='ys'>
+  <view>
+    <view class='xian1'></view>
+    <text class='bb'>商品名称</text>
+    <view>
+      <text class='bb2'>{{name}}</text>
+    </view>
+    <view class='xian2'></view>
+  </view>
+  <view>
+    <text class='bb'>图片简介</text>
+    <image class='tt1' src='{{image}}'></image>
+  </view>
+  <view>
+    <text class='bb'>商品简介</text>
+    <view>
+      <text class='bb3'>{{detail}}</text>
+    </view>
+    <view class='xian2'></view>
+  </view>
+  <view>
+    <text class='bb'>商品价格</text>
+    <view>
+      <text class='bb3'>￥{{price}}</text>
+    </view>
+    <view class='xian2'></view>
+  </view>
+  <view class='kk' style='border:1px '></view>
+</view>
+<view class='kuang'>
+  <button class='b_2' bindtap='gwc' size='mini'>加入购物车</button>
+<navigator class='tz' url='/pages/buy/buy?name={{name}}&&image={{image}}&&price={{price}}&&goodsid={{goodsid}}'>
+  <button type='warn' size='mini'>购买</button>
+</navigator>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/TJdizhi/TJdizhi.wxml-->
+<form bindsubmit='xinx'>
+  <view class='xian1'>
+    <view class='kkk1'>收货人 :</view>
+    <input placeholder='张三' name='name' class='ip1'></input>
+  </view>
+  <view class='xian2'>
+    <view class='kkk2'>手机 :</view>
+    <input placeholder='159999999' name='phone' class='ip1'></input>
+  </view>
+  <picker class='he' mode='region' bindchange='change'>
+  <view class='tttt'>
+    <text>所在地区</text>
+    </view>
+    <view class="xian3">
+      <input placeholder='省 ' name='sheng' class='ip1' value='{{change[0]}}'></input>
+    </view>
+    <view class="xian3">
+      <input placeholder='市 ' name='shi' class='ip1' value='{{change[1]}}'></input>
+    </view>
+    <view class="xian3">
+      <input placeholder='区 ' name='qu' class='ip1' value='{{change[2]}}'></input>
+    </view>
+  </picker>
+  <view class='xian2'>
+    <view class='kkk3'> 详细地址 :</view>
+    <input class='ip1' placeholder='如：小区、楼栋号' name='xiangq' bindtap='dit' value='{{address}}'></input>
+  </view>
+
+  <button form-type='submit' class='bb1' type='primary'>确认地址</button>
+</form>
